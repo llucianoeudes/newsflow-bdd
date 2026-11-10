@@ -1,0 +1,19 @@
+{
+  "name": "newsflow-bdd",
+  "version": "1.0.0",
+  "description": "Exercício BDD: NewsFlow com Cucumber.js",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "cucumber-js",
+    "test:dry": "cucumber-js --dry-run"
+  },
+  "keywords": [],
+  "author": "Luciano Eude e Gustavo Mariano",
+  "license": "ISC",
+  "devDependencies": {
+    "@cucumber/cucumber": "^13.3.0"
+  }
+}
